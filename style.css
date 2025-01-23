@@ -1368,7 +1368,7 @@ transition: 0.5s ease;
   .about-content .intro_grid h5{
 
     font-size: 5%;
-    /*margin-left:-4rem;*/
+    margin-left:-4rem;
 
   }
 
