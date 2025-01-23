@@ -1350,24 +1350,38 @@ transition: 0.5s ease;
 
  @media screen and (max-width:400px){
 
-  .resume-box h2,
+  
+    .about{
+    padding:10rem,10rem,10rem,10rem;
+    align-items: center;
+    
+
+  }
+
+  .about-content{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    width:70%;
+    
+  }
+
+  .about-content .intro_grid h5{
+
+    font-size: 95%;
+
+  }
+
+     .resume-box h2,
   .resume-box .heading,
   .resume-box .desc,
   .resume-detail.about .resume-item {
       text-align: center;
 
-  }
-
-     .about-content{
-
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: 5%;
-    margin-left:8rem;
-    margin-right:6rem;
-    width:80%;
-    
   }
 
   
