@@ -206,8 +206,8 @@ html.is-animating .transition-glass{
     text-decoration: none;
     min-height:fit-content; /* height of this box scales relative to the viewport... so if the ratios are off, site is goofed */
     padding-bottom:6rem;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow-y: auto;
+   /* overflow-x: hidden;*/
     scrollbar-width: none;
 
   }
