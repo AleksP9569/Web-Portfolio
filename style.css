@@ -1351,12 +1351,7 @@ transition: 0.5s ease;
  @media screen and (max-width:400px){
 
   
-    .about{
-    
-    align-items: left;
-    
-
-  }
+   
 
   .about-content{
 
@@ -1372,8 +1367,8 @@ transition: 0.5s ease;
 
   .about-content .intro_grid h5{
 
-    font-size: 40%;
-    margin-left:-4rem;
+    font-size: 20%;
+    /*margin-left:-4rem;*/
 
   }
 
