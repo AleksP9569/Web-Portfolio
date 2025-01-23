@@ -1366,13 +1366,14 @@ transition: 0.5s ease;
     
     
     
-    width:60%;
+    width:70%;
     
   }
 
   .about-content .intro_grid h5{
 
     font-size: 40%;
+    margin-left:-4rem;
 
   }
 
