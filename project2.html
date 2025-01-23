@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project 2</title>
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+
+
+</head>
+
+</body>
+
+<!--Page Transition-->
+<!--<main  id="swup" class="transition-glass">-->
+
+
+
+<!--main viewport-->
+
+<div class="big-container">
+    
+
+    
+
+   <!--responsivity needs to be fixed!!-->
+
+    <div class="container" id="home">
+        <div class="margin">
+            <div class="home" >
+                <div class="info-box">
+                  
+                    <h1>RF Microwave <span>Amplifier</span></h1>
+                    <div class="home-content info">
+                    
+                    
+
+                        <div class="home-img">
+                            <img src="img/RF_Amp_01.png" alt>
+
+
+                        </div>
+
+                        <p> The objective of this project was to design a 4-element microstrip patch linear antenna array 
+                            operating at 5.2 GHz. The design comprises a 4-element patch array with a microstrip feedline 
+                            network, matched to a 50-ohm input port. Various radiation patterns were measured and 
+                            analyzed to evaluate the antenna's performance. The design process began with hardware and 
+                            software preparation. RT/Duroid 5880 was selected as the substrate material, and AWR 
+                            Microwave Office along with MATLAB was used for simulation and validation. The initial step 
+                            involved designing a single microstrip patch element, which was replicated four times to form 
+                            the array. Subsequently, the microstrip feed network was developed, and all components were 
+                            integrated into a final layout for fabrication.
+                        </p>
+
+                        
+                        
+
+                    </div>
+
+                
+
+                
+
+                    
+                    <div class="home-content info">
+                        
+                        
+
+                        <p> The matching networks were designed using distributed elements (transmission lines), 
+                            specifically open-circuit shunt stubs. Key design parameters included stability, characteristic 
+                            impedance, gain, input matching (source), output matching (load), DC biasing, and radial stubs. 
+                            To achieve the desired gain, the transistor was biased using two independent DC power 
+                            supplies configured as bias tees (incorporating RF chokes and DC blocks). Surface-mount 
+                            capacitors were used to ensure the transistor was DC-isolated. The physical dimensions of the 
+                            external components (transistor, capacitors, resistors) adhered to the test jig’s 2.000 × 2.750
+                            inch specifications. The final design was exported as a high-resolution Gerber (.gbr) file for 
+                            fabrication.
+                        </p>
+
+
+
+                      
+
+                        <div class="home-img">
+                            <img src="img/Impedance.png" alt>
+
+
+                        </div>
+
+                        
+                    </div>
+
+                    
+
+                    
+                    
+                    <div class="home-content info">
+                        
+                        
+                        <div class="home-img">
+                            <img src="img/Amplifier_Results.png" alt>
+
+
+                        </div>
+
+
+                        <p> The final implementation phase involved assembling all components onto the fabricated 
+                            printed circuit board (PCB) and securing it within the test jig. The process began with drilling 
+                            holes in the board for fastening to the jig. DC components were soldered into place to properly 
+                            bias and align the amplifier. Once the assembly was complete, the board was secured with 
+                            screws. Measurements were performed using a Vector Network Analyzer (VNA) to validate the 
+                            amplifier’s performance against design specifications. The fully assembled PCB fitted into the jig 
+                            is shown in Figure 2.
+                        </p>
+
+                        
+                        
+
+                    </div>
+
+                    <div class="home-content info">
+                        
+                        
+                        
+
+
+                        <p> This project successfully demonstrated the design, simulation, fabrication, and testing of an RF 
+                            amplifier operating at 3.0 GHz. Using AWR Microwave Office and an iterative design process, 
+                            the amplifier achieved the desired gain and stability parameters. Laboratory measurements 
+                            confirmed the accuracy of the design, with the final circuit meeting all specifications. The 
+                            project underscores the effectiveness of combining theoretical design principles with advanced 
+                            simulation tools to produce high-performance RF amplifiers suitable for practical applications. 
+                        </p>
+
+                        <div class="home-img">
+                            <img src="img/Amplifier.png" alt>
+
+
+                        </div>
+
+                        
+                        
+
+                    </div>
+
+                    <div class="home-content">
+                        <a href="index.html" class="btn info" > Back </a>
+                    </div>
+
+                    
+
+            </div>
+
+            </div>
+        </div>
+    </div>
+                    
+            
+</div> 
+
+<!--</main>-->
+
+                
+
+
+
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js dont think this is necessary-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+     <!--swup page transition -->
+<!--<script src="https://unpkg.com/swup@4"></script>
+<script>
+const swup = new Swup();
+</script> -->
+
+
+<!-- Custom Javascript-->
+
+<script src="script.js"></script>
+</body>
+</html>

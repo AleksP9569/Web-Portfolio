@@ -1,0 +1,1403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration:none;
+    border:none;
+  outline:none;
+  scroll-behavior: smooth;
+
+}
+
+:root{
+
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color:#90EE90; /* pink color: rgb(218, 112, 214), turquoise: #30D5C8, neon green:#90EE90, emerald:#50C878, */
+  --disabled-color:#fff3;
+}
+
+
+html{
+
+  font-size:62.5%;
+  overflow-x:hidden;
+  overflow-y: hidden ;
+  
+}
+
+body{
+    /*background:var(--bg-color);*/
+    color: var(--text-color);
+
+    
+
+    height: 100vh;
+    background: url("img/Neon_background\ .gif") no-repeat center/ cover; /* THIS SINGLE LINE OF CODE IS ACTUALLY CRAZY SO GAS*/
+    /*padding: 80px 8%;*/ /* this is what makes/ creates the window!!!*/
+    
+    scrollbar-width: none;
+    overflow-y: hidden;
+  
+    
+
+}
+
+/*============== glass section definitions=============*/
+
+.big-container{
+
+    position:relative; /* fixed keeps the thing absolutly still, ideal if the inside content would scroll!*/
+    height:80vh;
+    background:rgba(255,255,255,0.01);
+    border:2px solid rgba(255,255,255,0.2); /* the magic colour that makes the thing blurry fr*/
+    border-radius:30px;
+    backdrop-filter:blur(30px);
+
+    margin: 80px 8%;
+   
+    
+
+    transform:scale(0);
+    animation:zoom-in 1s ease forwards;
+    /* ill have to add a delay of 1s to all the other animations!! to compensate for this one*/
+   
+    display:flex;
+    flex-direction: column;
+    
+    /* allows for the scrolling feature of the websites in blurred frame*/
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none; 
+    
+    
+    
+
+
+
+
+}
+
+  
+   @keyframes zoom-in{
+    100%{
+        transform:scale(1);
+    }
+  }
+
+/*==================================================*/
+
+
+  /*=======================================Header=============================*/
+  .header{
+    position: sticky; 
+    top:0;
+    left:0;
+    width:100%;
+    padding: 2rem 9% 0rem;
+    
+    height:100px;
+    
+
+
+    
+    
+   /*background:var(--bg-color);*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+
+    
+    
+
+    
+   
+    
+  
+  }
+
+  .navbar{
+    padding: 2rem 9% ;
+}
+
+
+
+
+/* need better Logo*/
+.logo{
+
+  font-size:6rem;
+  color:var(--text-color);
+  font-weight:600;
+  cursor:default;
+  text-decoration: none;
+
+
+}
+
+.navbar a {
+
+  font-size: 1.7rem;
+  color: var(--text-color);
+  margin-left:4rem;
+  transition: 0.3s;
+  text-decoration: none;
+
+}
+
+.navbar a:hover ,
+.navbar a.active{
+
+  color: var(--main-color);
+  
+
+
+}
+
+
+
+#menu-icon{
+
+  font-size:3.6rem;
+  color:var(--text-color);
+  display: none;
+
+
+
+}
+
+/*==============================================*/  
+
+/*====================swup page transition api=================*/
+
+
+.transition-glass{
+  opacity:1; 
+  background:transparent;
+  
+  transition:all 500ms ;
+
+  
+  
+}
+
+/* animation properties of screen transition */
+html.is-animating .transition-glass{
+
+  opacity:0; 
+  
+}
+ 
+/*after calling swup, the buttons on here no longer work...*/
+  
+
+/*==============================section pages==========================*/
+  .container{
+    position:relative;
+   
+    text-decoration: none;
+    min-height:fit-content; /* height of this box scales relative to the viewport... so if the ratios are off, site is goofed */
+    padding-bottom:6rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scrollbar-width: none;
+
+  }
+
+  .container.project, 
+  .container.experience{
+    overflow:auto;
+    scrollbar-width: none;
+
+  }
+
+  #Bg-2{
+    background:rgba(255,255,255,0.3);
+  }
+
+  .margin {
+    margin:0rem 9% 2rem;
+    
+
+  }
+
+  /*================================================================================*/
+
+ 
+  
+/*================Home Page=============================================================*/
+
+.home{
+
+    margin-top:10rem;
+    display:flex;
+  justify-content:center;
+  align-items: center ;
+  /*min-height:100vh;*/
+  margin-bottom: 50vh;
+  
+  
+  
+  
+  
+ 
+  
+}
+
+.info-box{
+  overflow-y: auto;
+
+  scrollbar-width: none;
+
+  display: flex;
+  flex-direction:column;
+  /*margin-top:10rem;*/
+    
+  justify-content:center;
+  /*align-items: center ;*/
+
+}
+
+.info-box h1{
+  font-size:5.6rem;
+  font-weight:700;
+  line-height:1.3;
+  margin-bottom: 3rem;
+
+    
+}
+
+.info-box h3{
+    font-size:3.5rem;
+    font-weight:500;
+    margin-bottom:3rem;
+    
+  
+      
+  }
+
+.info-box {
+    font-size:1.6rem;
+  }
+
+/* info paragrpahs should be larger text size*/
+
+.home-img img{
+
+  width: 20vw;
+  /*max-height:35vw;*/
+  animation: floatTimage 4s ease-in-out infinite;
+
+}
+
+@keyframes floatTimage{
+  0%{ 
+    transform:translateY(0);
+  }
+  50%{ 
+    transform:translateY(-2.4rem);
+  }
+  100%{ 
+    transform:translateY(0);
+  }
+
+
+}
+
+
+.info-box .home-img img{
+
+    width: 25vw;
+    animation: floatTimage 4s ease-in-out infinite;
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+
+.home-content.info{
+    display: flex;
+    text-align: left;
+    margin-bottom:2rem;
+    
+}
+
+.home-content h3{
+
+  font-size: 3.2rem;
+  font-weight:700;
+}
+
+
+span {
+color: var(--main-color);
+
+
+}
+
+
+
+.home-content h3:nth-of-type(2){
+
+  margin-bottom: 2rem;
+
+
+}
+
+.home-content h1{
+
+  font-size:5.6rem;
+  font-weight:700;
+  line-height:1.3;
+
+}
+
+.home-content p {
+  font-size:1.6rem;
+
+}
+
+.social-media a{
+
+  display: inline-flex;
+  justify-content:center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  /*border:0.2rem solid var(--main-color);*/
+  border-radius: 50%;
+  font-size:  2rem;
+  color: var(--main-color);
+  margin: 3rem 1.5rem 3rem 0;
+  transition: 0.5s ease;
+  text-decoration: none;
+
+
+
+
+}
+
+.social-media a:hover{
+
+  background:var(--main-color);
+  color:var(--second-bg-color);
+  box-shadow: 0 0 1rem var(--main-color)
+
+
+}
+
+.btn{
+
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem var(--text-color);
+  font-size: 1.6rem;
+  color: var(--second-bg-color);
+  letter-spacing: .1rem;
+  font-weight: 600;
+  transition: 0.5s ease;
+  text-decoration: none;
+ 
+
+
+}
+
+.btn.info{
+    margin-left:4rem;
+    margin-bottom:4rem;
+}
+
+.btn:hover{
+
+  box-shadow: none;
+
+}
+
+
+
+/*============================================================*/
+
+
+
+/*====================About Page=========================================*/
+.about{
+
+  display: flex; 
+  /*gap:2rem;*/
+  
+
+ 
+  justify-content:center;
+  align-items:center;
+  gap: 2rem;
+  padding-top:12rem;/* this solves the issue of the nav bar*/
+  
+  height:100%;
+  margin-bottom: 50vh;
+
+ 
+ 
+  
+ 
+
+}
+
+.about-img img{
+
+  width: 25vw;
+  margin-bottom:4rem;
+  
+  
+  
+}
+
+
+.heading {
+
+  
+  font-size: 4.5rem;
+  
+  font-weight:700;
+  
+
+}
+
+
+
+.about-content h2{
+
+
+ 
+  text-align:left;
+  line-height: 1.2;
+  
+
+}
+
+.about-content h3{
+  font-size:2.6rem;
+
+}
+
+.about-content p{
+
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem;
+
+}
+
+.about-content a{
+  margin-top:4rem;
+  
+}
+
+
+
+
+.intro_grid{
+
+  margin-bottom:2rem;
+  display:grid;
+  grid-template-columns: max-content max-content 1fr;
+  gap:0.5rem;
+}
+
+.intro_grid h5{
+display: flex;
+align-items:center;
+gap:1rem;
+font-size:1.6rem;
+font-weight:500;
+color:var(--text-color);
+
+}
+
+
+.intro_flex{
+  display:flex;
+  align-items:center;
+  justify-content: flex-start;
+  gap:1rem 2rem;
+  flex-wrap:wrap;
+
+
+}
+
+.intro_flex div{
+
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:500;
+  color:var(--text-color);
+  font-size:1.6rem
+}
+
+.intro_flex span{
+
+  font-size:1.6rem;
+  color:var(--main-color);
+}
+
+
+
+
+.intro_grid{
+  gap:0.5rem 2rem;
+}
+
+
+/* ====================== Expereinces and Certification Page==================================================*/
+
+/*add a proper title!1*/
+.project{
+    
+   
+  justify-content:center;
+  align-items:center;
+  
+  /*min-height:100vh;*/ /* what is going on here... the grid isnt treated as an element...*/
+
+
+  padding-top:12rem;/* this solves the issue of the nav bar*/
+  /*overflow: hidden;*/
+  /*padding-bottom:12rem;*/
+
+}
+.project h2{
+    
+  margin-bottom: 3rem;
+  
+  text-align: center;
+
+}
+
+.resume-container{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap:5rem; 
+    justify-content:center;
+    align-items:center;
+    /*position: absolute;*/
+    position: relative;
+    
+    padding-bottom:4rem;
+  /*padding-top:12rem;/* this solves the issue of the nav bar*/
+ 
+
+}
+
+.resume-box h2{
+
+  font-size:2.5rem;
+  text-align:left;
+
+}
+
+.resume-box p{
+
+  font-size: 1.6rem;
+
+}
+
+.resume-box .desc{
+
+  margin:2rem 0 2.5rem;
+
+
+}
+
+.resume-box .resume-btn{
+
+  width:100%;
+  height:5.3rem;
+  background:var(--disabled-color);
+  border:0.2rem solid var(--disabled-color);
+  font-size:1.6rem;
+  color:var(--text-color);
+  font-weight:500;
+  margin-bottom:2rem;
+  border-radius:0.8rem;
+  cursor:pointer;
+
+
+
+
+
+
+}
+
+/*these button definition might cause some problems */
+.resume-box .resume-btn.active{
+  border-color:var(--main-color);
+  color:var(--main-color);
+
+}
+
+/*this is tweaking for some reason!!*/
+
+.resume-detail{
+  display: none;
+}
+
+.resume-detail.active{
+  display: block;
+}
+
+
+.resume-box .heading{
+  font-size:2.5rem;
+  text-align:left;
+}
+
+.resume-list{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem,1fr) );
+  gap:2rem;
+  height:40rem;
+  overflow:auto;
+  margin-bottom:4rem;
+
+}
+
+.resume-list::-webkit-scrollbar{
+  width:0.7rem;
+
+  
+}
+
+.resume-list::-webkit-scrollbar-thumb{
+
+  background:transparent;
+  border-radius: 1rem;
+}
+
+.resume-list:hover::-webkit-scrollbar-thumb{
+
+  background:var(--main-color);
+}
+
+
+.resume-list .resume-item{
+  background:var(--disabled-color);
+  border-radius:0.8rem;
+  padding:3rem 2.5rem;
+  height:calc((45rem - 2rem)/2);
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+
+
+}
+
+
+.resume-item .year{
+  color:var(--main-color);
+
+}
+
+.resume-item h3{
+
+  font-size:2.2rem;
+
+
+}
+
+.resume-item .company{
+
+  position:relative;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.resume-item .company::before{
+
+  content:'';
+  position: absolute;
+  top:50%;
+  transform:translateY(-50%);
+  padding:0.5rem;
+  background:var(--main-color);
+  border-radius: 50%;
+  margin-left:-2rem;
+
+}
+
+.resume-detail.skills .resume-item{
+  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+  height:auto;
+  overflow: visible;
+
+
+}
+
+.resume-detail.skills .resume-item{
+
+  position:relative;
+  align-items:center;
+  height:auto;
+  margin-top:5rem;
+
+
+}
+
+.resume-detail.skills .resume-item i{
+
+  font-size:8.5rem;
+  transition:0.5s;
+}
+
+.resume-detail.skills .resume-item:hover i{
+
+  color:var(--main-color);
+}
+
+.resume-detail.skills .resume-item span{
+
+  position:absolute;
+  top:-20%;
+  background:var(--text-color);
+  color:var(--bg-color);
+  font-size:1.6rem;
+  padding:0.5rem 1rem;
+  border-radius:0.6rem;
+  pointer-events:none;
+  opacity: 0;
+  transform:scale(0.9);
+  transition:0.2s;
+
+}
+
+.resume-detail.skills .resume-item:hover span{
+
+  top:-25%;
+  opacity: 1;
+  transform:scale(1);
+
+
+}
+/*=================================================*/
+
+
+/*====================Project Page============================*/
+
+.experience{
+    
+    
+    justify-content:center;
+    align-items:center;
+    gap: 2rem;
+
+    
+    padding-top:12rem;/* this solves the issue of the nav bar*/
+ 
+}
+
+.experience h2{
+  text-align: center;
+  margin-bottom: 4rem;
+  
+  
+}
+
+.portfolio-container{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:3rem;
+
+
+
+}
+
+.portfolio-detail{
+
+  display:none;
+
+
+}
+
+.portfolio-detail.active{
+
+  display:block;
+
+}
+
+.portfolio-box .numb{
+  font-size: 8rem;
+  -webkit-text-stroke: 0.07rem var(--text-color);
+  color:transparent;
+  line-height:1;
+
+
+
+
+}
+
+.portfolio-box h3{
+
+  font-size: 3.5rem;
+  margin:0.8rem 0 2rem;
+
+
+}
+
+.portfolio-box p{
+  font-size:1.6rem;
+
+}
+
+.portfolio-box .tech{
+
+  margin: 2rem 0;
+  color:var(--main-color);
+  border-bottom: 0.1rem solid var(--text-color);
+  padding-bottom: 2rem;
+
+
+}
+
+.portfolio-box .live-github a{
+
+  position:relative;
+  display: inline-flex;
+  padding:1.3rem;
+  font-size: 3rem;
+  color:var(--text-color);
+  border-radius:50%;
+  background:var(--disabled-color);
+  transition:0.5s;
+
+
+}
+
+.portfolio-box .live-github a:hover{
+
+  color:var(--main-color);
+
+
+
+}
+
+.portfolio-box .live-github a:first-child{
+
+  margin-right:1.5rem;
+
+
+}
+
+.portfolio-box .live-github a:first-child i{
+  transform:rotate(135deg);
+}
+
+.portfolio-box .live-github a span{
+
+  position:absolute;
+  top:-60%;
+  left:50%;
+  transform:translateX(-50%) scale(0.9);
+  font-size:1.6rem;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  border-radius:0.6rem;
+  pointer-events:none;
+  background:var(--text-color);
+  color:var(--bg-colorr);
+  opacity: 0;
+  
+  transition:0.2s;
+}
+
+.portfolio-box .live-github a:hover span{
+
+  top:-70%;
+  opacity:1;
+  transform:translateX(-50%) scale(1);
+
+
+}
+
+.portfolio-box .portfolio-carousel{
+
+  width:100%;
+  height:45rem;
+  border-radius:1rem;
+  overflow:hidden;
+
+}
+
+.portfolio-carousel .img-slide {
+
+  display:grid;
+  grid-auto-flow: column;
+  grid-auto-columns:100%;
+  gap:2rem;
+  height:inherit;
+  transition:0.5s;
+
+
+
+}
+
+.portfolio-carousel .img-item {
+  height:inherit;
+
+
+}
+
+.portfolio-carousel .img-item img{
+
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:1rem;
+
+
+}
+
+.portfolio-box .navigation {
+
+  text-align:right;
+  margin-top:2rem;
+}
+
+.portfolio-box .navigation button{
+
+  display: inline-flex;
+  padding: 0.4rem;
+  background:var(--disabled-color);
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0.6rem;
+  font-size: 4rem;
+  color:var(--main-color);
+  cursor:pointer;
+
+
+}
+
+.portfolio-box .navigation button.disabled{
+
+  border-color:rgba(62, 50, 50, 0.18);
+
+  color:var(--disabled-color);
+}
+
+
+.portfolio-box .navigation .arrow-right{
+
+  margin-left:1.5rem;
+
+}
+/*==========================================================*/
+
+
+/*=========================Contact Info Page============================*/
+.contact{
+    
+   
+    justify-content:center;
+    align-items:center;
+    gap: 2rem;
+
+ 
+  padding-top:12rem;/* this solves the issue of the nav bar*/
+  
+ 
+}
+
+.contact h2{
+
+  margin-bottom: 3rem;
+text-align: center;
+
+
+}
+
+.contact form{
+
+  max-width:70rem;
+  margin:1rem auto;
+  text-align:center;
+  margin-bottom: 3rem;
+
+
+
+
+}
+
+.contact form .input-box{
+
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+
+
+}
+
+.contact form .input-box input,
+.contact form textarea{
+
+  width:100%;
+  padding:1.5rem;
+  font-size:1.6rem;
+  color: var(--text-color);
+  background: var(--second-bg-color);
+  border-radius:0.8rem;
+  margin: 0.7rem 0;
+
+}
+
+.contact form .input-box input{
+
+  width: 49%;
+}
+
+.contact form textarea{
+  resize:none;
+}
+
+.contact form .btn{
+  margin-top:2rem;
+  cursor:pointer;
+
+
+}
+/*======================================================*/
+
+/*=========================Footer=======================*/
+
+.footer{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap;
+  padding: 2rem 9%;
+ /* background: var(--second-bg-color);*/
+
+}
+
+.footer-text p{
+
+  font-size:1.6rem;
+}
+
+.footer-iconTop a{
+  display:inline-flex;
+  justify-content: center;
+  align-items:center;
+  padding:0.8rem;
+background: var(--main-color);
+border-radius:0.8rem;
+transition: 0.5s ease;
+
+}
+
+.footer-iconTop a:hover{
+
+  box-shadow: 0 0 1rem var(--main-color);
+
+}
+
+.footer-iconTop a i{
+
+  font-size:2.4rem;
+  color:var(--second-bg-color);
+}
+
+/*===========================================================*/
+
+
+
+/*========================BREAKPOINTS For Responsive Design=========================*/
+
+@media(max-width:1200px){
+
+  html{
+    font-size:55%;
+
+  }
+}
+
+@media(max-width:990px){
+
+  
+
+ .header{
+  padding: 2rem 3%;
+ }
+
+ 
+
+ .experience{
+  padding-bottom:7rem;
+
+ }
+.contact{
+  min-height: auto;
+}
+ .footer{
+
+  padding: 2rem 3%;
+ }
+
+ .resume-container,
+    .portfolio-container {
+
+        grid-template-columns:1fr;
+        /* hopefully this ratio stays within the boundaries of the div sections!!*/
+
+
+    }
+
+    .resume-container {
+
+        gap:3rem;
+
+    }
+
+    .portfolio-container .portfolio-box:first-child{
+
+        order:1;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+  html{
+    font-size:50%
+  }
+
+  #menu-icon{
+
+    display:block;
+    cursor:pointer;
+
+  }
+
+  .navbar{
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    padding:1rem 3%;
+    background:var(--bg-color);
+    border-top: 0.1rem solid rgba(0,0,0,0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+    display:none;
+    opacity: 0;
+   
+
+  }
+
+  .navbar.active{
+    
+
+    display:block;
+    animation:fade-in 0.25s ease forwards;
+    
+  }
+
+  @keyframes fade-in{
+    100%{opacity: 1;}
+  }
+
+  .navbar a{
+    display:block;
+    font-size:2rem;
+    margin:3rem 0;
+
+  }
+
+  /*all this stuff needs to be doubled, for the other pages specifically!!*/
+  .home{
+    flex-direction: column;
+  }
+
+  .home-content h3{
+
+    font-size: 2.6rem;
+    
+  }
+
+  .home-content h1{
+
+    font-size: 5rem;
+
+
+  }
+
+  .home-img img{
+    width:35vw;
+
+    margin-top: 2rem;
+
+  }
+
+  .home-content.info{
+    flex-direction: column;
+  }
+
+  
+  .info-box h1{
+
+    font-size: 5rem;
+
+
+  }
+
+  .info-box p{
+
+    margin-bottom:2rem;
+
+
+  }
+
+  .info-box .home-img img{
+    width:35vw;
+
+    margin-top: 2rem;
+
+  }
+
+  .about{
+
+    flex-direction:column-reverse;
+
+  }
+
+  .about-img img{
+
+    width: 35vw;
+    margin-top:4rem;
+    margin-bottom:4rem;
+
+
+  }
+
+  .project h2{
+    margin-bottom: 3rem;
+
+  }
+
+  .projects-container{
+
+   
+  grid-template-columns: repeat(auto-fit, minmax(30rem,1fr) );
+  }
+
+  .experience h2{
+    margin-bottom: 3rem;
+
+  }
+
+  .experiences-container{
+    /* will change with infinite scroller upon that integration*/
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .experience{
+    padding-bottom:7rem;
+  
+   }
+
+ }
+
+ @media(max-width:617px){
+
+  .experiences-container{
+    grid-template-columns:1fr;
+  }
+ }
+
+ @media(max-width:450px){
+
+ html{
+  font-size:50%;
+  
+ }
+
+ .contact form .input-box input{
+
+  width:100%;
+
+
+ }
+
+ .info-box .home-img img{
+  width:70vw;
+
+  margin-top: 2rem;
+
+}
+ 
+
+ }
+
+ @media screen and (max-width:400px){
+
+  .resume-box h2,
+  .resume-box .heading,
+  .resume-box .desc,
+  .resume-detail.about .resume-item {
+      text-align: center;
+
+  }
+
+  
+}
+
+ @media(max-width:375px){
+
+  html{
+    font-size:45%;
+    
+   }
+  
+  .home-img img{
+    width:70vw;
+
+  }
+
+  
+  
+
+
+  .about-img img{
+
+    width: 70vw;
+    /*margin-top:4rem;
+*/
+
+  }
+
+  
+
+  .footer{
+    flex-direction: column-reverse;
+    /* the button appears on the far left of the viewport and not the middle as in the tutorial*/
+    align-items: center;
+  }
+
+  .footer p{
+    text-align: center;
+    margin-top: 2rem;
+
+  }
+  }
+  
+
+ 
