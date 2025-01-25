@@ -1349,7 +1349,9 @@ transition: 0.5s ease;
  }
 
  @media screen and (max-width:400px){
-
+    .container{
+       min-height:max-content;
+    }
   
    
 
