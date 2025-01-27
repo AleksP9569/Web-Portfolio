@@ -225,6 +225,10 @@ html.is-animating .transition-glass{
     scrollbar-width: none;
 
   }
+.container.experience{
+min-height:175vh; /* check value to see if its ideal for the phone tings*/
+    
+}
 /*.container.contact{
     min-height:100vh
         }*/
