@@ -205,12 +205,17 @@ html.is-animating .transition-glass{
    
     text-decoration: none;
     /*min-height:fit-content; *//* height of this box scales relative to the viewport... so if the ratios are off, site is goofed old height requirements does not work on mobile */
-     /* min-height:100vh;*/ /* min height is absoluyley mandatory*/
+      min-height:100vh; /* min height is absoluyley mandatory*/
 
-      max-height:auto; /* the potential fix to the mobile viewport problem*/
-      /*height:auto;*/
+     /* max-height:auto;*/ /* the potential fix to the mobile viewport problem*/
+      height:auto;
     padding-bottom:6rem;
-    overflow-y: auto;
+
+      flex-grow: 1; /* This will allow the child to grow and fill the available space */
+      min-height: 0; /* Ensures that child can shrink properly */
+
+     /* overflow-y:hidden;*/
+      /*overflow-y: auto;*/
    /* overflow-x: hidden;*/
     scrollbar-width: none;
 
