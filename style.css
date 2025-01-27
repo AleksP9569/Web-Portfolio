@@ -208,7 +208,7 @@ html.is-animating .transition-glass{
       min-height:100vh; /* min height is absoluyley mandatory*/
 
      /* max-height:auto;*/ /* the potential fix to the mobile viewport problem*/
-      height:auto;
+     /* height:auto;*/
     padding-bottom:6rem;
 
       flex-grow: 1; /* This will allow the child to grow and fill the available space */
