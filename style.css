@@ -1147,9 +1147,6 @@ transition: 0.5s ease;
 
   }
 
-    .big-container{
-backdrop-filter:blur(30px);
-							}
     
 }
 
@@ -1344,6 +1341,12 @@ backdrop-filter:blur(30px);
  }
 
  @media(max-width:617px){
+
+	 .big-container{
+backdrop-filter:blur(30px);
+							
+	 }
+ 
 
   .experiences-container{
     grid-template-columns:1fr;
