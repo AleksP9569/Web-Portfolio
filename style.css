@@ -1179,7 +1179,7 @@ transition: 0.5s ease;
     .portfolio-container {
 
         grid-template-columns:1fr;
-        /* hopefully this ratio stays within the boundaries of the div sections!!*/
+       
 
 
     }
@@ -1359,6 +1359,15 @@ backdrop-filter:blur(30px);
   font-size:50%;
   
  }
+ .big-container{
+	 
+ background:rgba(255,255,255,0.01); /*lets see if this poses a problem*/
+    border:2px solid rgba(255,255,255,0.2); /* the magic colour that makes the thing blurry fr*/
+    border-radius:30px;
+    backdrop-filter:blur(30px);
+							
+	 }
+	 
 
  .contact form .input-box input{
 
