@@ -211,9 +211,7 @@ html.is-animating .transition-glass{
      /* height:auto;*/
     padding-bottom:6rem;
 
-      flex-grow: 1; /* This will allow the child to grow and fill the available space */
-      min-height: 0; /* Ensures that child can shrink properly */
-
+     
      /* overflow-y:hidden;*/
       /*overflow-y: auto;*/
    /* overflow-x: hidden;*/
