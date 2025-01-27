@@ -1146,7 +1146,15 @@ transition: 0.5s ease;
     font-size:55%;
 
   }
+
+    .big-container{
+backdrop-filter:blur(30px);
+							}
+    
 }
+
+
+							
 
 @media(max-width:990px){
 
