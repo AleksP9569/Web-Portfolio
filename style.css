@@ -226,7 +226,7 @@ html.is-animating .transition-glass{
 
   }
 .container.experience{
-min-height:175vh; /* check value to see if its ideal for the phone tings*/
+min-height:200vh; /* check value to see if its ideal for the phone tings*/
     
 }
 /*.container.contact{
