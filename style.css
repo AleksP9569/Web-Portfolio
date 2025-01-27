@@ -1378,6 +1378,11 @@ backdrop-filter:blur(30px);
  }
 
  @media screen and (max-width:430px){
+
+	  .big-container{
+backdrop-filter:blur(30px);
+							
+	 }
     
   
    
