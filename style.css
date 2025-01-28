@@ -1303,7 +1303,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
 	.home-img {
     width:35vw;
     height:35vw;
-    margin-top: 2rem;
+    margin-top: 6rem;
 
   }
 	
@@ -1437,7 +1437,17 @@ backdrop-filter:blur(30px);
 backdrop-filter:blur(30px);
 							
 	 }
-    
+    .home .info-box{
+
+	    width:80%;
+    }
+
+	/* .home-img {
+    width:35vw;
+    height:35vw;
+    margin-top: 6rem;
+
+  }*/
   
    
 
