@@ -1399,10 +1399,10 @@ backdrop-filter:blur(30px);
 
  @media(max-width:450px){
 
- html{
-  font-size:50%;
-  
- }
+  html{
+    font-size:45%;
+    
+   }
  .big-container{
 	 
  background:rgba(255,255,255,0.01); /*lets see if this poses a problem*/
