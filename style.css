@@ -1158,7 +1158,11 @@ transition: 0.5s ease;
 	.container.experience{
 min-height:200vh; /* check value to see if its ideal for the phone tings*/
     
-}				
+}
+
+	#Bg-2{
+    background:rgba(255,255,255,0.3);
+  }
 
     
 }
