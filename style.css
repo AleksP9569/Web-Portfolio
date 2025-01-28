@@ -267,6 +267,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
 
     margin-top:10rem;
     display:flex;
+	flex-direction:row;
   justify-content:center;
   align-items: center ;
   /*min-height:100vh;*/
