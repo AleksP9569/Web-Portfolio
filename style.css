@@ -321,7 +321,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
 
 .home-img{
 
-  display: block;
+  /*display: block;*/
   height:20vw;
   width:20vw;
   border-radius:50%;
