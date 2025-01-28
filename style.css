@@ -238,7 +238,8 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
     min-height:100vh
         }*/
 
- #Bg-2{
+ .container.about,
+.container.experience{
     background:rgba(255,255,255,0.3); /* gives the odd section a slightly different colour pallet*/
   }
  
@@ -1421,12 +1422,12 @@ backdrop-filter:blur(30px);
 
  }
 
- .info-box .home-img1 img{
+/* .info-box .home-img1 img{
   width:70vw;
 
   margin-top: 2rem;
 
-}
+}*/
  
 
  }
@@ -1442,7 +1443,7 @@ backdrop-filter:blur(30px);
 	    width:90%;
     }
 
- .home-img1 img{
+.info-box .home-img1 img{
 
 	     width:35vw;
     	     height:35vw;
