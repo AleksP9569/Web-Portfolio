@@ -310,11 +310,29 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
 
 /* info paragrpahs should be larger text size*/
 
-.home-img img{
+.home-img{
+
+  display: block;
+  height:20vw;
+  width:20vw;
+  border-radius:50%;
+  overflow:none;
+  border:2px solid rgba(255,255,255,0.2); /* the magic colour that makes the thing blurry fr*/
+  background: url("img/IMG_7009.JPG") no-repeat center/ cover;
+  animation: floatTimage 4s ease-in-out infinite;
+    
+   
+
+}
+
+.home-img1 img{
 
   width: 20vw;
   /*max-height:35vw;*/
-  animation: floatTimage 4s ease-in-out infinite;
+ animation: floatTimage 4s ease-in-out infinite;
+ margin-right:4rem;
+ margin-left:4rem;
+
 
 }
 
@@ -1280,8 +1298,15 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
 
 
   }
+	.home-img {
+    width:35vw;
+    height:35vw;
+    margin-top: 2rem;
 
-  .home-img img{
+  }
+	
+
+  .home-img1 img{
     width:35vw;
 
     margin-top: 2rem;
@@ -1394,7 +1419,7 @@ backdrop-filter:blur(30px);
 
  }
 
- .info-box .home-img img{
+ .info-box .home-img1 img{
   width:70vw;
 
   margin-top: 2rem;
@@ -1458,8 +1483,15 @@ backdrop-filter:blur(30px);
     font-size:45%;
     
    }
+
+	  .home-img {
+    width:70vw;
+    height:70vw;
+
+  }
+
   
-  .home-img img{
+  .home-img1 img{
     width:70vw;
 
   }
