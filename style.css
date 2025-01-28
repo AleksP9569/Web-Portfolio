@@ -320,6 +320,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
   border:2px solid rgba(255,255,255,0.2); /* the magic colour that makes the thing blurry fr*/
   background: url("img/IMG_7009.JPG") no-repeat center/ cover;
   animation: floatTimage 4s ease-in-out infinite;
+	margin-top:4rem;
     
    
 
