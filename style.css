@@ -204,8 +204,8 @@ html.is-animating .transition-glass{
     position:relative;
    
     text-decoration: none;
-    /*min-height:fit-content; *//* height of this box scales relative to the viewport... so if the ratios are off, site is goofed old height requirements does not work on mobile */
-      min-height:150vh; /* min height is absoluyley mandatory*/
+     min-height:fit-content; /* height of this box scales relative to the viewport... so if the ratios are off, site is goofed old height requirements does not work on mobile */
+      /*min-height:150vh;*/ /* min height is absoluyley mandatory*/
 
      /* max-height:auto;*/ /* the potential fix to the mobile viewport problem*/
      /* height:auto;*/
@@ -230,10 +230,10 @@ html.is-animating .transition-glass{
      min-height:150vh;
      
  }*/
-.container.experience{
+/*.container.experience{
 min-height:200vh; /* check value to see if its ideal for the phone tings*/
     
-}
+}*/
 /*.container.contact{
     min-height:100vh
         }*/
@@ -1146,6 +1146,19 @@ transition: 0.5s ease;
     font-size:55%;
 
   }
+
+	.container{
+    
+      min-height:150vh; /* min height is absoluyley mandatory*/
+
+     
+
+  }
+
+	.container.experience{
+min-height:200vh; /* check value to see if its ideal for the phone tings*/
+    
+}				
 
     
 }
