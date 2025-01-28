@@ -320,7 +320,8 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
   border:2px solid rgba(255,255,255,0.2); /* the magic colour that makes the thing blurry fr*/
   background: url("img/IMG_7009.JPG") no-repeat center/ cover;
   animation: floatTimage 4s ease-in-out infinite;
-	margin-top:4rem;
+	margin-top:10rem;
+	margin-left:4rem;
     
    
 
@@ -1400,7 +1401,7 @@ backdrop-filter:blur(30px);
  @media(max-width:450px){
 
   html{
-    font-size:45%;
+    font-size:40%;
     
    }
  .big-container{
