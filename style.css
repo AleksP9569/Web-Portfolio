@@ -272,7 +272,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
   align-items: center ;
   /*min-height:100vh;*/
   margin-bottom: 50vh;
-	border:2px solid red;
+	
   
   
   
@@ -377,6 +377,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
     display: flex;
     text-align: left;
     margin-bottom:2rem;
+	border:2px solid red;
     
 }
 
