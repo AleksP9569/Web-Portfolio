@@ -218,6 +218,9 @@ html.is-animating .transition-glass{
     scrollbar-width: none;
 
   }
+#Bg-2{
+    background:rgba(255,255,255,0.3);
+  }
 
   .container.project, 
   .container.experience{
@@ -238,10 +241,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
     min-height:100vh
         }*/
 
-#Bg-2{
-    background:rgba(255,255,255,0.3); /* gives the odd section a slightly different colour pallet*/
-  }
- 
+
 
   .margin {
     margin:0rem 9% 2rem;
