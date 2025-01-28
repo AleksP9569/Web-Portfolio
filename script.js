@@ -171,8 +171,7 @@ ScrollReveal({
 ScrollReveal().reveal('.home-content, .heading, .info-box h1', { origin: 'top'});
 
 ScrollReveal().reveal('.home-img, .contact form,.resume-box, .portfolio-box, .home-content.info ', { origin: 'bottom'});
-//portfolio box aint working!!,not transitioning fix that so site looks much better
-//too much information to translate in one piece
+
 
 ScrollReveal().reveal('.home-content h1, .about-img ',  { origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
