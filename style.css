@@ -1444,7 +1444,8 @@ backdrop-filter:blur(30px);
 
 .home .info-box .home-img1{
 
-	    width:90%;
+	     width:35vw;
+    	     height:35vw;
     }
 
 
@@ -1452,12 +1453,12 @@ backdrop-filter:blur(30px);
 
 	 
 
-	/* .home-img {
+	 .home-img {
     width:35vw;
     height:35vw;
     margin-top: 6rem;
 
-  }*/
+  }
   
    
 
