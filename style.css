@@ -273,7 +273,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
 /*================Home Page=============================================================*/
 
 .home{
-    margin-top:15rem;
+    /*margin-top:15rem;*/
     display:flex;
 	flex-direction:row;
   justify-content:center;
@@ -1420,14 +1420,14 @@ backdrop-filter:blur(30px);
     font-size:40%;
     
    }
- .big-container{
+ /*.big-container{
 	 
  background:rgba(255,255,255,0.01); /*lets see if this poses a problem*/
     border:2px solid rgba(255,255,255,0.2); /* the magic colour that makes the thing blurry fr*/
     border-radius:30px;
     backdrop-filter:blur(30px);
 							
-	 }
+	 }*/
 
 .home{
 	margin-top:5rem;
