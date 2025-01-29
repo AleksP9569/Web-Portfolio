@@ -1403,10 +1403,10 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
 
  @media(max-width:617px){
 
-	 .big-container{
+	/* .big-container{
 backdrop-filter:blur(30px);
 							
-	 }
+	 }*/
  
 
   .experiences-container{
@@ -1423,7 +1423,7 @@ backdrop-filter:blur(30px);
 
 
 .home{
-	margin-top:0rem;
+	margin-top:-5rem;
 }
 	 
 
