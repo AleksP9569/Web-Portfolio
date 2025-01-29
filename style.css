@@ -274,7 +274,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
 
 .home{
 
-    margin-top:10rem;
+    margin-top:15rem;
     display:flex;
 	flex-direction:row;
   justify-content:center;
