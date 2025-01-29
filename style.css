@@ -381,8 +381,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
     display: flex;
     text-align: left;
     margin-bottom:2rem;
-	border:2px solid red;
-    
+	
 }
 
 .home-content h3{
