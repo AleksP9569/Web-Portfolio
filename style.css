@@ -235,6 +235,10 @@ html.is-animating .transition-glass{
 	 
   }
 
+.container.margin.home{
+	min-height:100vh;
+}
+
 
  
 
