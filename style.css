@@ -1435,13 +1435,7 @@ backdrop-filter:blur(30px);
 
  }
 
-/* .info-box .home-img1 img{
-  width:70vw;
 
-  margin-top: 2rem;
-
-}*/
- 
 
  }
 
@@ -1459,13 +1453,8 @@ backdrop-filter:blur(30px);
 .info-box .home-img1 img{
 
 	     width:45vw;
-    	     height:45vw;
+    	     height:50vw;
     }
-
-
-	 
-
-	 
 
 	 .home-img {
     width:45vw;
