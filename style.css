@@ -218,7 +218,7 @@ html.is-animating .transition-glass{
     scrollbar-width: none;
 
   }
-.container.margin.home{
+#home{
 	min-height:100vh;
 }
 
