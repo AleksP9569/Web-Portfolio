@@ -218,6 +218,9 @@ html.is-animating .transition-glass{
     scrollbar-width: none;
 
   }
+.container.margin.home{
+	min-height:100vh;
+}
 
 .margin {
    
@@ -235,9 +238,7 @@ html.is-animating .transition-glass{
 	 
   }
 
-.container.margin.home{
-	min-height:100vh;
-}
+
 
 
  
