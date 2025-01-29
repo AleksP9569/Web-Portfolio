@@ -273,22 +273,13 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
 /*================Home Page=============================================================*/
 
 .home{
-
     margin-top:15rem;
     display:flex;
 	flex-direction:row;
   justify-content:center;
   align-items: center ;
   /*min-height:100vh;*/
-  margin-bottom: 50vh;
-	
-  
-  
-  
-  
-  
- 
-  
+  margin-bottom: 50vh;  
 }
 
 .info-box{
@@ -381,7 +372,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
     margin-right:2rem;
 }
 
-.home-content.info{
+.home-content{
    margin-top:15rem;
 	
 }
@@ -390,6 +381,7 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
     display: flex;
     text-align: left;
     margin-bottom:2rem;
+	margin-top:5rem;
 	
 }
 
