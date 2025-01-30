@@ -27,7 +27,7 @@
 
 html{
 
-  font-size:55%;
+  font-size:45%;
   overflow-x:hidden;
   overflow-y: hidden ;
   
@@ -226,7 +226,7 @@ html.is-animating .transition-glass{
 .margin {
    
     margin:0rem 9% 2rem;
-height:inherit; /* the height of this thing needs to compress the items, as of right now the bottom doesnt do nothin, the items dont scale relative to the bottom fr*/
+height:auto; /* the height of this thing needs to compress the items, as of right now the bottom doesnt do nothin, the items dont scale relative to the bottom fr*/
 
   }
 
@@ -277,12 +277,13 @@ min-height:200vh; /* check value to see if its ideal for the phone tings*/
 
 .home{
     /*margin-top:15rem;*/
+	position:relative;
     display:flex;
 	flex-direction:row;
   justify-content:center;
   align-items: center ;
   /*min-height:100vh;*/
-  margin-bottom: 50vh;  
+   
 }
 
 .info-box{
