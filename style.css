@@ -222,10 +222,11 @@ html.is-animating .transition-glass{
 	min-height:100vh; /* what is the purpose of this, to set a limit of the object to 100vh?*/
 }
 
+/* im not even sure if this thing is entirely necessary...*/
 .margin {
    
     margin:0rem 9% 2rem;
-min-height:inherit; /* the height of this thing needs to compress the items, as of right now the bottom doesnt do nothin, the items dont scale relative to the bottom fr*/
+height:inherit; /* the height of this thing needs to compress the items, as of right now the bottom doesnt do nothin, the items dont scale relative to the bottom fr*/
 
   }
 
