@@ -261,12 +261,12 @@ height:auto; /* the height of this thing needs to compress the items, as of righ
      
  }*/
 .container.experience{
-min-height:fit-content; /* check value to see if its ideal for the phone tings*/
+height:fit-content; /* check value to see if its ideal for the phone tings*/
     
 }
-/*.container.contact{
+.container.contact{
     min-height:100vh
-        }*/
+        }
 
 
 
