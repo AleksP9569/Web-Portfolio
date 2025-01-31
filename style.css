@@ -27,7 +27,7 @@
 
 html{
 
-  font-size:50%;
+  font-size:55%;
   overflow-x:hidden;
   overflow-y: hidden ;
   
@@ -222,6 +222,7 @@ html.is-animating .transition-glass{
   }
 #home{
 	min-height:100vh; /* what is the purpose of this, to set a limit of the object to 100vh?*/
+	font-size:45%;
 }
 
 /* im not even sure if this thing is entirely necessary...*/
