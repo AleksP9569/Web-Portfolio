@@ -249,12 +249,12 @@ height:auto; /* the height of this thing needs to compress the items, as of righ
 
  
 
-  .container.project, 
+ /* .container.project, 
   .container.experience{
     overflow:auto;
     scrollbar-width: none;
 
-  }
+  }*/
 
 /* .container.project{
      min-height:150vh;
