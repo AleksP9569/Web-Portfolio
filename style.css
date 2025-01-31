@@ -204,8 +204,8 @@ html.is-animating .transition-glass{
     position:relative;
    
     text-decoration: none;
-   /* min-height:100%;
-    max-height:max-content;*/
+   /* min-height:100%;*/
+    max-height:100vh;
      min-height:fit-content; /* height of this box scales relative to the viewport... so if the ratios are off, site is goofed old height requirements does not work on mobile */
       /*min-height:150vh;*/ /* min height is absoluyley mandatory*/
 
