@@ -634,7 +634,7 @@ color:var(--text-color);
 
   padding-top:12rem;/* this solves the issue of the nav bar*/
   /*overflow: hidden;*/
-  /*padding-bottom:12rem;*/
+  padding-bottom:12rem;
 
 }
 .project h2{
