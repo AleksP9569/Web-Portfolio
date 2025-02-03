@@ -55,7 +55,7 @@ body{
 .big-container{
 
     position:relative; /* fixed keeps the thing absolutly still, ideal if the inside content would scroll!*/
-    height:80vh;
+    height:85vh;
     background:rgba(255,255,255,0.01);
     border:2px solid rgba(255,255,255,0.2); /* the magic colour that makes the thing blurry fr*/
     border-radius:30px;
