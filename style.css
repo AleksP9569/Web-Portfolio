@@ -222,7 +222,7 @@ html.is-animating .transition-glass{
 
   }
 #home{
-	/*min-height:100vh;*//* what is the purpose of this, to set a limit of the object to 100vh?*/
+	min-height:100vh;
 	/*font-size:45%;*/
 }
 
