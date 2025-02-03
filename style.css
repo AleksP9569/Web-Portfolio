@@ -224,7 +224,7 @@ html.is-animating .transition-glass{
 /*#home{
 	min-height:100vh;
 	/*font-size:45%;*/
-}*/
+/*}*/
 
 /* im not even sure if this thing is entirely necessary...*/
 .margin {
@@ -246,28 +246,9 @@ height:auto; /* the height of this thing needs to compress the items, as of righ
   }
 
 
-
-
- 
-
- /* .container.project, 
-  .container.experience{
-    overflow:auto;
-    scrollbar-width: none;
-
-  }*/
-
-/* .container.project{
-     min-height:150vh;
-     
- }*/
-.container.experience{
-/*height:fit-content;*/ /* check value to see if its ideal for the phone tings*/
-    
-}
-.container.contact{
-   min-height:fit-content;
-        }
+/*.container.contact{
+   min-height:120vh;
+        }*/
 
 
 
