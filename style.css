@@ -27,7 +27,7 @@
 
 html{
 
-  font-size:55%;
+  font-size:50%;
   overflow-x:hidden;
   overflow-y: hidden ;
   
@@ -97,6 +97,7 @@ body{
 
   /*=======================================Header=============================*/
   .header{
+    font-size:62.5%;
     position: sticky; 
     top:0;
     left:0;
@@ -204,9 +205,9 @@ html.is-animating .transition-glass{
     position:relative;
    
     text-decoration: none;
-    min-height:100%;
-    max-height:100vh;
-     /*min-height:fit-content; *//* height of this box scales relative to the viewport... so if the ratios are off, site is goofed old height requirements does not work on mobile */
+    /*min-height:100%;
+    max-height:100vh;*/
+     min-height:fit-content; /* height of this box scales relative to the viewport... so if the ratios are off, site is goofed old height requirements does not work on mobile */
       /*min-height:150vh;*/ /* min height is absoluyley mandatory*/
 
      /* max-height:auto;*/ /* the potential fix to the mobile viewport problem*/
@@ -221,8 +222,8 @@ html.is-animating .transition-glass{
 
   }
 #home{
-	min-height:100vh; /* what is the purpose of this, to set a limit of the object to 100vh?*/
-	font-size:45%;
+	/*min-height:100vh;*//* what is the purpose of this, to set a limit of the object to 100vh?*/
+	/*font-size:45%;*/
 }
 
 /* im not even sure if this thing is entirely necessary...*/
@@ -261,11 +262,11 @@ height:auto; /* the height of this thing needs to compress the items, as of righ
      
  }*/
 .container.experience{
-height:fit-content; /* check value to see if its ideal for the phone tings*/
+/*height:fit-content;*/ /* check value to see if its ideal for the phone tings*/
     
 }
 .container.contact{
-    min-height:100vh
+   /* min-height:100vh*/
         }
 
 
@@ -503,7 +504,7 @@ color: var(--main-color);
   justify-content:center;
   align-items:center;
   gap: 2rem;
-  padding-top:12rem;/* this solves the issue of the nav bar*/
+  padding-top:10rem;/* this solves the issue of the nav bar*/
   
   height:100%;
   margin-bottom: 50vh;
@@ -632,7 +633,7 @@ color:var(--text-color);
   /*min-height:100vh;*/ /* what is going on here... the grid isnt treated as an element...*/
 
 
-  padding-top:12rem;/* this solves the issue of the nav bar*/
+  padding-top:10rem;/* this solves the issue of the nav bar*/
   /*overflow: hidden;*/
   padding-bottom:12rem;
 
@@ -863,7 +864,7 @@ color:var(--text-color);
     gap: 2rem;
 
     
-    padding-top:12rem;/* this solves the issue of the nav bar*/
+    padding-top:10rem;/* this solves the issue of the nav bar*/
  
 }
 
@@ -1074,7 +1075,7 @@ color:var(--text-color);
     gap: 2rem;
 
  
-  padding-top:12rem;/* this solves the issue of the nav bar*/
+  padding-top:10rem;/* this solves the issue of the nav bar*/
   
  
 }
