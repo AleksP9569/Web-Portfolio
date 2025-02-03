@@ -208,7 +208,7 @@ html.is-animating .transition-glass{
     /*min-height:100%;
     max-height:100vh;*/
     /* min-height:fit-content;*/ /* height of this box scales relative to the viewport... so if the ratios are off, site is goofed old height requirements does not work on mobile */
-      min-height:125vh; /* min height is absoluyley mandatory*/
+      min-height:100vh; /* min height is absoluyley mandatory*/
 
      /* max-height:auto;*/ /* the potential fix to the mobile viewport problem*/
      /* height:auto;*/
@@ -221,10 +221,10 @@ html.is-animating .transition-glass{
     scrollbar-width: none;
 
   }
-#home{
+/*#home{
 	min-height:100vh;
 	/*font-size:45%;*/
-}
+}*/
 
 /* im not even sure if this thing is entirely necessary...*/
 .margin {
