@@ -1395,11 +1395,7 @@ transition: 0.5s ease;
 
  @media(max-width:617px){
 
-	/* .big-container{
-backdrop-filter:blur(30px);
-							
-	 }*/
- 
+	
 
   .experiences-container{
     grid-template-columns:1fr;
@@ -1410,9 +1406,14 @@ backdrop-filter:blur(30px);
 
   html{
     font-size:40%;
+	  margin: 0; height: 100%; overflow: hidden;
+	 
     
    }
-
+body{
+ margin: 0; height: 100%; overflow: hidden;
+	
+}
 
 .home{
 	margin-top:-8rem;
