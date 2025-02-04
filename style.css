@@ -40,9 +40,8 @@ body{
     
 
     height: 100vh;
-  /*  background: url("img/Neon_background\ .gif") no-repeat center/ cover; *//* THIS SINGLE LINE OF CODE IS ACTUALLY CRAZY SO GAS background too active??*/
-    background: url("img/circuit-board-seamless-pattern-background-of-vector-18170148.jpg") no-repeat center/ cover; 
-    /*padding: 80px 8%;*/ /* this is what makes/ creates the window!!!*/
+   background: url("img/Neon_background\ .gif") no-repeat center/ cover; /* THIS SINGLE LINE OF CODE IS ACTUALLY CRAZY SO GAS background too active??*/
+    padding: 80px 5%; /* this is what makes/ creates the window!!!*/
     
     scrollbar-width: none;
     overflow-y: hidden;
@@ -62,7 +61,7 @@ body{
     border-radius:30px;
     backdrop-filter:blur(30px);
 
-    margin: 80px 8%;
+   /* margin: 80px 8%;*/
    
     
 
