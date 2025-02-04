@@ -1173,6 +1173,11 @@ transition: 0.5s ease;
 
   }
 
+	.big-container{
+ 	background:rgba(255,255,255,0.5); /* for consistent glass effect on across mobile devices*/
+		
+	}
+
 	.container{
     
       min-height:150vh; /* min height is absoluyley mandatory*/
@@ -1190,7 +1195,7 @@ transition: 0.5s ease;
   }
 
 	#Bg-2{
-    background:rgba(255,255,255,0.3);
+    background:rgba(255,255,255,0.6);
   }
 
     
