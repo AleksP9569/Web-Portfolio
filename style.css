@@ -1175,16 +1175,16 @@ transition: 0.5s ease;
 
 	.container{
     
-      min-height:100vh; /* min height is absoluyley mandatory*/
+      min-height:150vh; /* min height is absoluyley mandatory*/
 
      
 
   }
 
-	.container.experience{
+	/*.container.experience{
 min-height:100vh; /* check value to see if its ideal for the phone tings*/
     
-}
+}*/
 
 	#Bg-2{
     background:rgba(255,255,255,0.3);
