@@ -1175,14 +1175,14 @@ transition: 0.5s ease;
 
 	.container{
     
-      min-height:150vh; /* min height is absoluyley mandatory*/
+      min-height:100vh; /* min height is absoluyley mandatory*/
 
      
 
   }
 
 	.container.experience{
-min-height:200vh; /* check value to see if its ideal for the phone tings*/
+min-height:100vh; /* check value to see if its ideal for the phone tings*/
     
 }
 
