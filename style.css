@@ -1174,7 +1174,7 @@ transition: 0.5s ease;
   }
 
 	.big-container{
- 	background:rgba(255,255,255,0.3); /* for consistent glass effect on across mobile devices*/
+ 	background:rgba(255,255,255,0.5); /* for consistent glass effect on across mobile devices*/
 		
 	}
 
@@ -1195,7 +1195,7 @@ transition: 0.5s ease;
   }
 
 	#Bg-2{
-    background:rgba(255,255,255,0.4);
+    background:rgba(255,255,255,0.55);
   }
 
     
