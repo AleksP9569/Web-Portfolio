@@ -283,24 +283,10 @@ height:auto; /* the height of this thing needs to compress the items, as of righ
   justify-content:center;
   
 	/*fade in animation to hide the picture compilation*/
-	opacity:0;
-visibility: hidden;
-animation:show-content 1.5s linear forwards;
-  animation-delay:0.2s;
-
+	
 }
 
-@keyframes show-content 
-{
-  100%{
-      visibility:visible;
-  opacity:1;
 
-
-  }
-
-
-}
 
 
 .info-box h1{
@@ -377,7 +363,28 @@ animation:show-content 1.5s linear forwards;
     animation: floatTimage 4s ease-in-out infinite;
     margin-left:2rem;
     margin-right:2rem;
+
+	opacity:0;
+visibility: hidden;
+animation:show-content 1.5s linear forwards;
+  animation-delay:0.2s;
+
 }
+
+
+@keyframes show-content 
+{
+  100%{
+      visibility:visible;
+  opacity:1;
+
+
+  }
+
+
+}
+
+
 
 .home-content{
    margin-top:10rem;
