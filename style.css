@@ -41,7 +41,7 @@ body{
 
     height: 100vh;
     background: url("img/Neon_background\ .gif") no-repeat center/ cover; /* THIS SINGLE LINE OF CODE IS ACTUALLY CRAZY SO GAS background too active??*/
-    padding: 80px 5%; /* this is what makes/ creates the window!!!*/
+    padding: 80px 2%; /* this is what makes/ creates the window!!!*/
     
     scrollbar-width: none;
     overflow-y: hidden;
