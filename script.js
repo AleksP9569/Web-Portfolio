@@ -187,11 +187,11 @@ ScrollReveal().reveal('.intro_flex div',{origin:'bottom', delay:500,interval:500
 /*================typewritter js=======================*/
 
 const typed = new Typed('.multiple-text',{
-    strings:['Electrical Engineer',' Electronic Systems Developer', 'At Sonova Group'],
+    strings:['And i'm an Electrical Engineer','An Electronic Systems Developer', 'At Sonova Group'],
     typeSpeed: 100,backDelay: 1000,
     loop:true
 });
 
-// something is bugging out with regards to this function, causing a whole fiasco.. 
+//remeber that deployments on github pages take a while to fully update...
 
 
