@@ -187,11 +187,12 @@ ScrollReveal().reveal('.intro_flex div',{origin:'bottom', delay:500,interval:500
 /*================typewritter js=======================*/
 
 const typed = new Typed('.multiple-text',{
-    strings:['And i'm an Electrical Engineer','An Electronic Systems Developer', 'At Sonova Group'],
+    strings:[' Electrical Engineer','Electronic Systems Developer', ' Sonova Group'],
     typeSpeed: 100,backDelay: 1000,
     loop:true
 });
 
 //remeber that deployments on github pages take a while to fully update...
+// "And i'm an" added onto each phrase in the multiple text string makes the whole site go haywire... why
 
 
