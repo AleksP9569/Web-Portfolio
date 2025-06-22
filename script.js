@@ -187,7 +187,7 @@ ScrollReveal().reveal('.intro_flex div',{origin:'bottom', delay:500,interval:500
 /*================typewritter js=======================*/
 
 const typed = new Typed('.multiple-text',{
-    strings:['And I'm an Electrical Engineer',' An Electronic Systems Developer', ' At Sonova Group'],
+    strings:["And I'm an Electrical Engineer","An Electronic Systems Developer", "At Sonova Group"],
     typeSpeed: 100,backDelay: 1000,
     loop:true
 });
